@@ -30,17 +30,16 @@ This tool was created for Kaltura applications development and is not suppose to
 
 - [x] Ensure you have [node.js installed](https://nodejs.org/en/download/current/), version 7.0.0 or above. 
 - [x] Ensure you have [git installed](https://git-for-windows.github.io/) 
-- [x] Ensure you have [yarn installed](https://yarnpkg.com/lang/en/docs/install/) (we use it for node package management) version 0.24.6 and above. 
 
 #### Setup your workspace
 1. create a folder to hold your packages (your workspace root folder).
 2. create `package.json` in your root folder by running the following command:
 ```
- $ yarn init -y
+ $ npm init -y
  ```
 3. add this tool to your folder in your root folder by running the following command:
 ```
-$ yarn add @kaltura-ng/dev-workspace
+$ npm install @kaltura-ng/dev-workspace
 ```
 
 4. create file `kaltura-ws.json` in your root folder with the following format:
@@ -80,7 +79,7 @@ $ yarn add @kaltura-ng/dev-workspace
 
 6. run setup command to build & symlink your repositories
 ```bash
-$ yarn run setup 
+$ npm run setup
 ```
 
   
